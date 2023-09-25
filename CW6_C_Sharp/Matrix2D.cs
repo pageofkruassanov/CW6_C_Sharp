@@ -185,7 +185,7 @@ namespace CW6_C_Sharp
                 for(int j = 0 ; j < _array.GetLength(1); j++)
                 {
                     sb.Append(this[i,j]);
-                    if (i < _array.GetLength(0) - 1)
+                    if (j < _array.GetLength(0) - 1)
                         sb.Append(' ');
                 }
                 sb.Append('\n');
